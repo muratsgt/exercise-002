@@ -1,2 +1,1 @@
-# hello-world
-This one is for practice
+A responsive Website
