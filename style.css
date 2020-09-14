@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+
+}
+
+.first{
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "head text"
+    ;
+}
+
+.second{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#head-1{
+    grid-area: head;
+}
+#text-1{
+    grid-area: text;
+}
+
+img{
+    border-radius: 15px;
+    width: inherit;
+}
+
+.pic{
+    padding: 20px;
+    width: 30vw;
+}
